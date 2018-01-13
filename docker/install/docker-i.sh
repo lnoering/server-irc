@@ -9,6 +9,4 @@
 #bash_version   :4.2.46(1)-release
 #==============================================================================
 
-# yum -y install docker-io
-
-sudo yum install docker-ce
+yum -y install docker-io

@@ -9,12 +9,4 @@
 #bash_version   :4.2.46(1)-release
 #==============================================================================
 
-# rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
-
-sudo yum install -y yum-utils \
-  device-mapper-persistent-data \
-  lvm2
-
-sudo yum-config-manager \
-    --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
+rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
