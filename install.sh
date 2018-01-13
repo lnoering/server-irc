@@ -11,3 +11,4 @@
 
 sh ./update/run.sh
 sh ./security/run.sh
+sh ./docker/run.sh
