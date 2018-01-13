@@ -9,12 +9,10 @@
 #bash_version   :4.2.46(1)-release
 #==============================================================================
 
-sudo systemctl enable docker
+sudo service docker start
 
-sudo systemctl start docker
+chkconfig docker on
 
 #grant access to user (to not use sudo)
-sudo usermod -aG docker $(whoami)
-
-#to show status
-#sudo systemctl status docker
+#sudo usermod -aG docker $(whoami)
+sudo usermod -aG docker leonardo

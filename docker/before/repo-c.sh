@@ -1,12 +1,12 @@
 #!/bin/bash -       
-#title          :docker-i.sh
-#description    :This script install docker
+#title          :repo-c.sh
+#description    :This repository of docker for centOS
 #author		 	:leonardo <lnoering@gmail.com>
 #date           :20180113
 #version        :0.1    
-#usage		 	:sh docker-i.sh
+#usage		 	:sh repo-c.sh
 #notes          :
 #bash_version   :4.2.46(1)-release
 #==============================================================================
 
-yum -y install docker-io
+rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
