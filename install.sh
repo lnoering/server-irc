@@ -9,4 +9,5 @@
 #bash_version   :4.2.46(1)-release
 #==============================================================================
 
-sh ./security/install/security-i.sh
+sh ./update/run.sh
+sh ./security/run.sh
